@@ -19,6 +19,7 @@ public class Libro {
         // No hace nada, deja los atributos en sus valores por defecto
     }
     
+    
     // Método para cargar un libro pidiendo los datos al usuario
     public void cargarLibro() {
         Scanner scanner = new Scanner(System.in);
@@ -30,6 +31,7 @@ public class Libro {
         autor = scanner.nextLine();
         System.out.println("Ingrese el número de páginas del libro:");
         numeroPaginas = scanner.nextInt();
+        
     }
     
     // Método para informar los detalles del libro
@@ -39,4 +41,5 @@ public class Libro {
         System.out.println("Autor: " + autor);
         System.out.println("Número de páginas: " + numeroPaginas);
     }
+    
 }
